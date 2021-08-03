@@ -113,7 +113,7 @@ const SelectDropdown = (
     },
     dropdownCustomizedButtonParent: {
       flex: 1,
-      marginHorizontal: 8,
+      marginHorizontal: 0,
       overflow: "hidden",
     },
     //////////////////////////////////////
