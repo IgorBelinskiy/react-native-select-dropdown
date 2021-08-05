@@ -43,6 +43,7 @@ const SelectDropdown = (
     /////////////////////////////
     rowStyle /* style object for row */,
     rowTextStyle /* style object for row text */,
+    dropdownCustomizedButtonParentStyle,
     renderCustomizedRowChild /* function returns React component for customized row */,
   },
   ref
@@ -113,7 +114,7 @@ const SelectDropdown = (
     },
     dropdownCustomizedButtonParent: {
       flex: 1,
-      marginHorizontal: 0,
+      marginHorizontal: 8,
       overflow: "hidden",
     },
     //////////////////////////////////////
