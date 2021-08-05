@@ -365,7 +365,7 @@ const SelectDropdown = (
       {renderDropdown()}
       {renderDropdownIcon && renderDropdownIcon()}
       {renderCustomizedButtonChild ? (
-        <View style={[styles.dropdownCustomizedButtonParent]}>
+        <View style={[styles.dropdownCustomizedButtonParent, dropdownCustomizedButtonParent]}>
           {renderCustomizedButtonChild(selectedItem, index)}
         </View>
       ) : (
